@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego donde debes adivinar un número</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <h1>Adivina el número</h1>
+    </header>
+
+    <main>
+        <div class="flex-container">
+            <div>Introduce un número entre 0 y 100:</div>
+            <div>
+                <input type="number" id="numeroEntrada">
+            </div>
+            <div>
+                <button onclick="comprobarNumero()">Comprobar</button>
+            </div>
+            <div id="mensaje">¡A jugar!</div>
+            <div>Cantidad de intentos:</div>
+            <div id="intento"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
